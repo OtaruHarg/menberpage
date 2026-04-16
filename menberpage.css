@@ -2,8 +2,8 @@
 
 
 body{
-    height: 1920px;
-    width: 1080px;
+    height: 100vh;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
@@ -12,37 +12,39 @@ body{
     background-color: #000000;
     position: absolute;
     top: 0;
-    height: 200px;
-    width: 1080px;
+    height: 10vh;
+    width: 100vw;
     z-index: 4;
 }
 
 .main{
     background-color: #32527B;
     position: absolute;
-    height: 1920px;
-    width: 1080px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
     z-index: 3;
 }
 
 .icon{
     position: absolute;
     background-color: red;
-    top: 10px;
-    left: 10px;
-    height: 180px;
-    width: 270px;
+    top: 1vh;
+    left: 1vw;
+    height: 9vh;
+    width: 9vh;
     z-index: 5;
 }
 
 .titles{
     position: absolute;
     color: white;
-    top: 25px;
-    left: 290px;
-    height: 150px;
-    width: 780px;
-    font-size: 80px;
+    top: 2.5vh;
+    left: 33vw;
+    height: 10vh;
+    width: 67vw;
+    font-size: 6vw;
     z-index: 5;
     display: flex;
     justify-content: center;
